@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Страница авторизации</title>
+    <style>
+        a:visited {
+            color: blue;
+        }
+
+        a:active {
+            color: Fuchsia;
+        }
+
+        a:hover {
+            color: yellow;
+        }
+    </style>
+</head>
+<body style="background-color:lightcyan; color:midnightblue; font:1em Arial">
+    <a href="HTMLItogPage1.html" target="_blank">Переход на главную страницу</a><br />
+    <a href="HTMLItogPage2.html" target="_blank">Переход к странице с таблицей</a><br />
+    <br />
+    <form action="HTMLItogPage3" method="POST" enctype="multipart/form-data">
+        Введите ваше имя: <input type="text" style=position:absolute;left:12%; name="txtField" maxlength="10" /><br />
+        Введите пароль:<input type="password" style=position:absolute;left:12%; name="psw" /><br />
+        <input type="submit" name="submit" value="Отправить!" />
+    </form>
+</body>
+</html>
